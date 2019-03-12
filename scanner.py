@@ -15,9 +15,9 @@ def getchar(text,pos):
 	
 	# **Σημείο #3**: Προαιρετικά, προσθέστε τις δικές σας ομαδοποιήσεις
 	
-	if c>='0' and c<='9': return 'DIGIT'	# 0..9 grouped together
+	#if c>='0' and c<='9': return 'DIGIT'	# 0..9 grouped together
 	
-	if c=='.': return 'DOT'	# dot as a category by itself
+	#if c=='.': return 'DOT'	# dot as a category by itself
 	
 	return c	# anything else
 	
